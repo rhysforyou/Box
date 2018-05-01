@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57F55A2B20985E2800840BE6 /* CodableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F55A2A20985E2800840BE6 /* CodableBox.swift */; };
 		D4523D971B27B6600071A162 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4523D961B27B6600071A162 /* CoreFoundation.framework */; };
 		D470AC3D19E86128003DA6C6 /* Box.h in Headers */ = {isa = PBXBuildFile; fileRef = D470AC3C19E86128003DA6C6 /* Box.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D470AC4319E86128003DA6C6 /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D470AC3719E86128003DA6C6 /* Box.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57F55A2A20985E2800840BE6 /* CodableBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBox.swift; sourceTree = "<group>"; };
 		D4523D961B27B6600071A162 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		D470AC3719E86128003DA6C6 /* Box.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Box.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D470AC3B19E86128003DA6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				D470AC5719E86790003DA6C6 /* BoxType.swift */,
 				D470AC5919E868D3003DA6C6 /* MutableBox.swift */,
 				D470AC3A19E86128003DA6C6 /* Supporting Files */,
+				57F55A2A20985E2800840BE6 /* CodableBox.swift */,
 			);
 			path = Box;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			files = (
 				D470AC5619E861E2003DA6C6 /* Box.swift in Sources */,
 				D470AC5819E86790003DA6C6 /* BoxType.swift in Sources */,
+				57F55A2B20985E2800840BE6 /* CodableBox.swift in Sources */,
 				D470AC5A19E868D3003DA6C6 /* MutableBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
